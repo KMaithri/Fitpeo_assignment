@@ -14,7 +14,7 @@
 
 }
 
-@media (max-width : 1024px) {
+@media (max-width : 1170px) {
     .header-container {
         grid-template-columns: 1fr;
         grid-template-areas:
