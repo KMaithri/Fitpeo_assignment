@@ -1,0 +1,29 @@
+.health-cards {
+    background-color: var(--background);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.organ-image {
+    width: 30px;
+    height: 30px;
+}
+
+.healthcard-header {
+    display: flex;
+    align-items: center;
+}
+
+.bars {
+    height: 40px;
+    width: 150px;
+}
+
+.organ-margin {
+    margin-left: 10px;
+}
+
+.date {
+    margin: 0px;
+}

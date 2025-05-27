@@ -1,0 +1,29 @@
+.appointment-card {
+    background-color: var(--gray-highlight3);
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 30px;
+    color: var(--logo-highlight2);
+}
+
+.highlighted-appointment {
+    background-color: var(--logo-highlight2);
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.appointment-container {
+    display: flex;
+}
+
+.set-margin {
+    margin: 20px;
+}
+
+.app-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

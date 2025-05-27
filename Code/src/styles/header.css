@@ -1,0 +1,88 @@
+.logo1 {
+    color: var(--logo-highlight1);
+}
+
+.logo2 {
+    color: var(--logo-highlight2);
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-areas:
+        "div1 div2 div3";
+
+}
+
+@media (max-width : 1024px) {
+    .header-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "div1 div2 div3";
+    }
+
+    .div1,
+    .div2,
+    .div3 {
+        background-color: white;
+    }
+
+    .div1 {
+        justify-self: flex-start;
+    }
+}
+
+@media (min-width : 1025px) {
+
+    .div1,
+    .div3 {
+        background-color: var(--background);
+    }
+
+    .div1 {
+        justify-self: flex-center;
+    }
+}
+
+.div1,
+.div2,
+.div3 {
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.div1 {
+    grid-area: div1;
+    border-top-left-radius: 50px;
+}
+
+.div2 {
+    grid-area: div2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.div3 {
+    grid-area: div3;
+    justify-self: flex-end;
+    border-top-right-radius: 50px;
+}
+
+input {
+    border: 1px solid rgb(230, 229, 229);
+    padding: 0.5em;
+    height: 20px;
+    width: 300px;
+
+}
+
+
+#notification {
+    width: 20px;
+    height: 20px;
+    padding: 0.5em;
+    margin: 10px;
+}

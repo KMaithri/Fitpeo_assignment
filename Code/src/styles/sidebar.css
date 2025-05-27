@@ -1,0 +1,30 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.side-links {
+    margin-left: 10px;
+}
+
+.active {
+    color: var(--logo-highlight2);
+}
+
+.side-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.side-link-divs {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width : 1025px) {
+    .sidebar {
+        border-bottom-left-radius: 50px;
+    }
+
+}

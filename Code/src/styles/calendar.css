@@ -1,0 +1,49 @@
+.make-inline {
+    display: inline-flex;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+li {
+    list-style: none;
+    color: var(--blue-highlight);
+}
+
+.remove-ul-padding {
+    padding: 0px 20px;
+    margin-block-start: 0px;
+    margin-block-end: 8px;
+}
+
+.cal-year {
+    color: var(--blue-highlight);
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+.highlight-day {
+    background-color: var(--gray-highlight3);
+    border-radius: 25px;
+}
+
+.normal-day {
+    background-color: var(--background);
+}
+
+.highlight-time {
+    background-color: var(--logo-highlight2);
+    color: white;
+}
+
+.normal-time {
+    background-color: var(--background);
+}
+
+.normal-time-highlight {
+    background-color: var(--gray-highlight3);
+}
+
+.upcoming-time-highlight {
+    background-color: var(--cal-highlight2);
+    color: white;
+}

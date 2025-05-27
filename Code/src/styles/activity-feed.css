@@ -1,0 +1,28 @@
+.activity-feed {
+    border-radius: 30px;
+}
+
+.activity-heading {
+    color: var(--logo-highlight2);
+}
+
+.activity-feed {
+    background-color: var(--background);
+    padding: 20px;
+    margin: 10px;
+}
+
+.activity-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-container {
+    text-align: center;
+}
+
+.chart-image {
+    width: 100px;
+    height: 150px;
+}

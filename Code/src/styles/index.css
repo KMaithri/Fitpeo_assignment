@@ -1,0 +1,76 @@
+:root {
+    --background: #f6faff;
+    --blue-highlight: #3734a9;
+    --logo-highlight1: #00fbff;
+    --logo-highlight2: #12017c;
+    --cal-highlight2: #bab5d7;
+    --gray-highlight: #adb0d6;
+    --gray-highlight2: #b0b4c4;
+    --gray-highlight3: #e6e8ee;
+}
+
+.heading {
+    color: var(--logo-highlight2);
+}
+
+.remove-margin {
+    margin: 2px 0px;
+}
+
+body {
+    font-family: Merriweather;
+}
+
+.app-layout {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "sidebar main main";
+    grid-template-rows: auto 1fr;
+    /* grid-template-rows: auto 1fr; */
+
+}
+
+
+
+@media only screen and (max-width : 1024px) {
+
+    .app-layout {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "sidebar"
+            "main";
+        grid-template-rows: auto auto 1fr;
+    }
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: var(--background);
+
+}
+
+main {
+    grid-area: main;
+}
+
+.avatar {
+    width: 20px;
+    height: 20px;
+    padding: 0.5em;
+}
+
+.weight-remover {
+    font-weight: normal;
+}
+
+.faded {
+    color: var(--gray-highlight2);
+}
