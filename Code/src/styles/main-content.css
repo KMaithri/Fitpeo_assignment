@@ -17,7 +17,7 @@
     }
 }
 
-@media (min-width : 1170px) {
+@media (min-width : 1025px) {
     .main-div2 {
         border-bottom-right-radius: 50px;
     }

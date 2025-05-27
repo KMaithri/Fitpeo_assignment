@@ -14,7 +14,7 @@
 
 }
 
-@media (max-width : 1170px) {
+@media (max-width : 1024px) {
     .header-container {
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -32,7 +32,7 @@
     }
 }
 
-@media (min-width : 1025px) {
+@media (min-width : 1025pxpx) {
 
     .div1,
     .div3 {

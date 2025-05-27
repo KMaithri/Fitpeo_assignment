@@ -41,7 +41,7 @@ const Sidebar = () => {
           <img className="side-icons" src={support}></img>
           <h5 className="side-links faded weight-remover">Support</h5>
         </div>
-        <div className="side-link-divs">
+        <div className="side-link-divs setting-div">
           <img className="side-icons" src={settings}></img>
           <h5 className="side-links faded weight-remover">Setting</h5>
         </div>
