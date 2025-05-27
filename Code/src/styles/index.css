@@ -24,20 +24,12 @@ body {
 .app-layout {
     min-height: 100vh;
     display: grid;
-    
+    grid-template-columns: 200px 1fr 1fr;
     grid-template-areas:
         "header header header"
         "sidebar main main";
     grid-template-rows: auto 1fr;
-    /* grid-template-rows: auto 1fr; */
 
-}
-
-@media (max-width : 1025px){
-    .app-layout{
-         grid-template-columns: 200px 1fr 1fr;
-    }
-   
 }
 
 
@@ -79,8 +71,4 @@ main {
 
 .faded {
     color: var(--gray-highlight2);
-}
-
-*{
-    outline: 1px solid red !important;
 }
